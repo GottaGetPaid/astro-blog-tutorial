@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ImageCard from "../components/ImageCard.astro";
+
+import bridge from "../assets/images/bridge.jpg";
+import chinese from "../assets/images/chinese.jpg";
+import indian from "../assets/images/indian.jpg";
+import mexican from "../assets/images/mexican.jpg";
+import pikachu from "../assets/images/pikachu.jpg";
+import thinkpad from "../assets/images/thinkpad.jpg";
+
+const pageTitle = "Gallery";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <p>Check out some of these cool pictures!</p>
+    <div class="body">
+      <ImageCard img1={chinese} img2={indian} img3={mexican}></ImageCard>
+      <p>Some very cool food!</p>
+      <ImageCard img1={bridge} img2={pikachu} img3={thinkpad}></ImageCard>
+      <p>Some other cool pictures!</p>
+    </div>
+</BaseLayout>
