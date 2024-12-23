@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My First Blog Post'
-pubDate: 2022-07-01
+pubDate: 2024-11-23
 description: 'This is the first post of my new Astro blog.'
 author: 'Justin'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
+    url: 'https://static.wikia.nocookie.net/pokemon/images/1/15/0494Victini_Pokemon_20th_Anniversary.png'
+    alt: 'Victini pokemon sprite art.'
 tags: ["astro", "blogging", "learning in public"]
 ---
 
