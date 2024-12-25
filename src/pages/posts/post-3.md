@@ -7,6 +7,6 @@ author: 'Justin'
 image:
     url: 'https://static.wikia.nocookie.net/pokemon/images/2/22/0494Victini_BW_anime.png'
     alt: 'Victini pokemon sprite art.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["astro", "community", "setbacks"]
 ---
 This post is basically the same as the second blog post!
